@@ -120,6 +120,65 @@ main {
     font-weight: 700;
 }
 
+/* feature section styles */
+.feature {
+    margin: 150px 0px;
+    display: flex;
+    gap: 120px;
+}
+
+.section-card {
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-title {
+    color: #131313;
+    font-size: 1.115rem;
+    font-weight: 600;
+}
+
+.feature .section-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.featureing-img img {
+    width: 708px;
+    height: 982px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    text-align: center;
+    position: relative;
+    bottom: 77px;
+    right: 90px;
+}
+
+.badge-title {
+    color: #FFF;
+    margin: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 45px;
+
+}
+
+.badge-discription {
+    color: #FFF;
+    padding-bottom: 45px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+
+}
+
 /* facts section styles */
 .fact-text-content {
     padding-left: 40px;
@@ -170,6 +229,24 @@ main {
     width: 165px;
 }
 
+/* footer Section */
+footer {
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1440px;
+    margin: 70px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    padding-top: 35px;
+    margin: 0;
+}
+
 /* responsive styles */
 @media screen and (max-width: 576px) {
     header {
@@ -178,6 +255,7 @@ main {
 
     nav,
     .teams-container,
+    .feature,
     .facts-card-container,
     .sponsors-img-container {
         flex-direction: column;
@@ -197,8 +275,21 @@ main {
         padding-left: 20px;
     }
 
+    .featureing-img img {
+        width: 90%;
+        height: auto;
+    }
+
+    .ten-years-badge {
+        position: static;
+    }
+
     .facts-card-container {
         gap: 20px;
+    }
+
+    footer {
+        max-width: 80%;
     }
 }
 
@@ -212,6 +303,7 @@ main {
 
     nav,
     .teams-container,
+    .feature,
     .facts-card-container,
     .sponsors-img-container {
         flex-direction: column;
@@ -223,5 +315,18 @@ main {
 
     .facts-card-container {
         gap: 20px;
+    }
+
+    .featureing-img img {
+        width: 90%;
+        height: auto;
+    }
+
+    .ten-years-badge {
+        position: static;
+    }
+
+    footer {
+        max-width: 70%;
     }
 }
