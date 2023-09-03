@@ -30,6 +30,12 @@
 
 }
 
+.section-discription {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /* header styles */
 header {
     background: rgba(255, 144, 14, 0.10);
@@ -53,6 +59,9 @@ nav li {
 
 nav li a {
     text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* banner styles */
@@ -66,12 +75,6 @@ nav li a {
     color: #131313;
     font-size: 4rem;
     font-weight: 700;
-}
-
-.banner-discription {
-    color: #727272;
-    font-size: 1rem;
-    font-weight: 400;
 }
 
 .banner img {
@@ -115,6 +118,35 @@ main {
 .teams-title .features {
     color: #FF900E;
     font-weight: 700;
+}
+
+/* facts section styles */
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.facts-card-container .card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 45px 35px;
+}
+
+.card-stats {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 10px 0 2.5px 0;
+}
+
+.card-title {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2.5px;
+    margin-bottom: 0;
 }
 
 /* responsive styles */
